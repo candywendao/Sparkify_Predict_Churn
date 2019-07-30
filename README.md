@@ -20,7 +20,7 @@ Project details and results are discussed in the [post](https://medium.com/@cand
 
 3. **Implementation**
 
-This project is implemented using Apache Spark Python AP and uses the following python libraries:
+This project is implemented using Apache Spark Python API and uses the following python libraries:
 
 	- pyspark
 	- numpy
