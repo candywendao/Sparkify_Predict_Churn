@@ -8,6 +8,7 @@ This project focuses on identifying factors that help predict user churn risk by
 In real cases, user event datasets are large data files that record every detailed interactions users have with the application. Currently we’re analyzing a small subset data file (128 MB) in local workspace. In the future we'll analyze the full data (12 GB) in the cloud with AWS.
 
  1. **Medium Post**
+
 Project details and results are discussed in the [post](https://medium.com/@candywendao/churn-prediction-with-spark-aecad96a5d4c) on Medium.
 
 
@@ -18,6 +19,7 @@ Project details and results are discussed in the [post](https://medium.com/@cand
 	 - Data input file is too large to be uploaded here. 
 
 3. **Implementation**
+
 This project is implemented using Apache Spark Python AP and uses the following python libraries:
 
 	- pyspark
@@ -40,6 +42,7 @@ This project is implemented using Apache Spark Python AP and uses the following 
 	- 225 distinct users included: 104 female and 121 male.
 
  2. **Data Visualization**
+
 Charts can be found from the [notebook](https://github.com/candywendao/Sparkify_Predict_Churn/blob/master/Sparkify_Churn_Prediction.ipynb) in this repo or the Medium [post](https://medium.com/@candywendao/churn-prediction-with-spark-aecad96a5d4c).
 
 ### Modeling and Evaluation
@@ -71,10 +74,11 @@ A screenshot of the preprocessed dataset:
  - Metrics: As the sample size is comparatively small, we use **f1** score as the accuracy metric, which considers both the precision the recall to compute the score.
  
  - Results:
- 
-![Metrics](https://github.com/candywendao/Sparkify_Predict_Churn/blob/master/image/F1_results.png)
 
 According to the results, the model using Random Forest looks very promising as it achieved 0.90 and 0.78 scores for train and test datasets.
+
+![Metrics](https://github.com/candywendao/Sparkify_Predict_Churn/blob/master/image/F1_results.png)
+
 
  - Future Improvement:
 
